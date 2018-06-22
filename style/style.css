@@ -71,4 +71,40 @@
     display: inline-block;
     border-bottom: 1px dotted #fd5520;
   }
+  body .participants .participants-title ul {
+    padding: 2% 0 1% 0;
+  }
+  body .participants .participants-title ul li {
+    list-style: none;
+    display: inline-block;
+    border-bottom: 1px solid #feaa8f;
+    margin-right: 1%;
+  }
+  body .participants .participants-title ul li a {
+    color: #fd5520;
+  }
+  body .participants .participants-item .title {
+    font-size: 0.9em;
+    color: #000;
+    font-weight: bold;
+  }
+  body .participants .participants-item .position,
+  body .participants .participants-item .degree,
+  body .participants .participants-item .rating {
+    color: #666;
+    font-size: 0.8em;
+  }
+  body .participants .participants-item .humanity a {
+    font-size: 0.8em;
+    color: #fd5520;
+    text-decoration: underline;
+    margin-right: 5%;
+  }
+  body .participants .participants-item a {
+    font-size: 0.9em;
+    color: #fd5520;
+    brder: 1px solid #feaa8f;
+    border-radius: 10px;
+    padding: 10px;
+  }
 }
