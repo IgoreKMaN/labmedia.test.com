@@ -1,0 +1,21 @@
+header{
+	
+}
+
+nav{
+
+}
+nav .collapse ul.nav,
+nav .collapse span.profil{
+	display: inline-block;
+	margin: 1% 0;
+}
+
+nav .collapse span{
+	width: 10%;
+	text-align: right;
+}
+
+nav .collapse .profil img{
+	//width: 80%
+}
