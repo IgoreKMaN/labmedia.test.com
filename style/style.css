@@ -7,12 +7,27 @@ nav{
 }
 nav .collapse ul.nav,
 nav .collapse span.profil{
-	display: inline-block;
+	display: block;
 	margin: 1% 0;
 }
 
+nav .collapse ul{
+	padding: 0 2%;
+}
+
+nav .collapse ul.nav > li{
+	
+}
+
+nav .collapse ul.nav > li > a{
+	color: #000;
+	margin: 15px 15px;
+	padding: 0;
+	border-bottom: 1px solid #999999;
+	font-weight: bold;
+}
+
 nav .collapse span{
-	width: 10%;
 	text-align: right;
 }
 
