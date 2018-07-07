@@ -2,9 +2,10 @@ header{
 	
 }
 
-nav{
-
+nav.navbar-default{
+	background-color: #fff;
 }
+
 nav .collapse ul.nav,
 nav .collapse span.profil{
 	display: block;
@@ -33,4 +34,37 @@ nav .collapse span{
 
 nav .collapse .profil img{
 	//width: 80%
+}
+
+aside{
+	padding-top: 3%;
+}
+
+aside .about_pulpit .breadcrumbs ul{
+	list-style: none;
+}
+
+aside .about_pulpit .breadcrumbs ul li{
+	display: inline-block;
+}
+
+aside .about_pulpit .breadcrumbs ul li a{
+	color: #999999;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 2%;
+
+}
+
+aside .about_pulpit .info-puplit{
+	margin-top: 8%;	
+}
+
+aside .about_pulpit .info-puplit h2{
+	font-size: 3.2em;
+	color: #000;
+}
+
+aside .about_pulpit .info-puplit > p{
+	margin-top: 5%;
+	font-size: 1.5em;
 }
