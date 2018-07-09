@@ -179,6 +179,10 @@ aside .about_pulpit .slide-puplit .arrow label{
 	height: 30px;
 }
 
+aside .about_pulpit .slide-puplit .arrow label:hover{
+	background: transparent;
+}
+
 aside .about_pulpit .slide-puplit .arrow label:after{
 	display: none;
 }
