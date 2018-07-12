@@ -227,6 +227,55 @@ aside .about_pulpit .slide-puplit .slides p.bold-and-underline{
     line-height: 118%; 
 }
 
+aside .specialization{
+	margin: 10% 0 8%;
+}
+
+aside .specialization a{
+	padding: 2% 2%;
+	background-color: #ececec;
+	color: #666666;
+	border-radius: 5px;
+	margin-right: 2%;
+	font-size: 0.8em;
+}
+
+aside .specialization a:hover{
+	text-decoration: none;
+}
+
+aside .classifiers, aside .competence {
+	margin-bottom: 6%;
+}
+
+aside .classifiers p,  aside .competence p{
+	font-weight: bold;
+	font-size: 0.9em;
+	margin-bottom: 3%;
+ }
+
+aside .classifiers a,  aside .competence a{
+	font-size: 0.8em;
+	color: #666666;
+	border-bottom: 1px solid #c2c2c2;
+	margin-right: 1%;
+ }
+
+aside .edit img{
+ 	width: 4%;
+ 	margin-right: 2%;
+ }
+
+aside .edit a{
+ 	border-bottom: 1px dotted #feaa8f;
+ 	color: #fd5520;
+ 	font-size: 1.3em;
+ }
+
+
+
+ 
+
 
 
 
