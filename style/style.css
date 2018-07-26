@@ -272,8 +272,65 @@ aside .edit a{
  	font-size: 1.3em;
  }
 
+ aside .box-participants{
+ 	margin-top: 4%;
+ }
+
+ aside .box-participants h2{
+ 	font-size: 35px;
+ 	margin-bottom: 3%;
+ }
+
+ aside .box-participants ul>li{
+ 	display: inline-block;
+ 	font-size: 18px;
+ 	color: #fd5520;
+ 	border-bottom: 1px solid #fd5520;
+ 	margin-right: 2%;
+ }
 
 
+ aside .box-participants ul{
+ 	margin-bottom: 3%;
+ }
+
+a:hover{
+	text-decoration: none;
+}
+
+.box-participants .participants-item {
+    height: 210px;
+  }
+ .box-participants .participants-item .title {
+    font-size: 0.9em;
+    color: #000;
+    font-weight: bold;
+  }
+ .box-participants .participants-item .position,
+ .box-participants .participants-item .degree,
+ .box-participants .participants-item .rating {
+    color: #666;
+    font-size: 0.8em;
+  }
+
+.box-participants .participants-item .humanity a {
+    font-size: 0.8em;
+    color: #fd5520;
+    text-decoration: underline;
+    margin-right: 5%;
+  }
+.box-participants .participants-item .rating {
+    margin-bottom: 6%;
+  }
+.box-participants .participants-item .button-quesеstion {
+    font-size: 0.9em;
+    color: #fd5520;
+    border: 1px solid #feaa8f;
+    border-radius: 20px;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-bottom: 18%;
+  }
  
 
 
