@@ -370,10 +370,40 @@ aside .courses{
 
 aside .courses .name-courses{
 	color: #7b7c7c;
+	margin-bottom: 2%;
 }
 
+aside .courses .title{
+	font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    text-decoration: underline;
+}
 
+aside .courses .category{
+	margin: 2% 0 2% 0;
+}
 
+aside .courses .category li{
+	display: inline-block;
+	margin-right: 15px;
+}
+
+aside .courses .category li a{
+	color: #7b7c7c;
+	text-decoration: underline;
+}
+
+aside .courses .bottom span{
+	margin-right: 15px;
+	font-size: 18px;
+}
+
+aside .courses .bottom span#like{
+	padding-left: 24px;
+	background-image: url(../img/heart.png);
+	background-repeat: no-repeat;
+}
 
 
 
