@@ -353,7 +353,24 @@ a:hover{
     padding: 10px;
     width: 15%;
 }
+
+aside .popular-courses{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
  
+aside .courses{
+	
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+	background-image: url(../img/star.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+	padding: 6% 6%;
+}
+
+aside .courses .name-courses{
+	color: #7b7c7c;
+}
 
 
 
