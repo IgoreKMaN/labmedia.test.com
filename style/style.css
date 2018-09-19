@@ -418,7 +418,85 @@ aside .popular-courses .courses-buton a:hover{
 	background-color: #feaa8f;
 }
 
+aside .bid .bid-tabs{
+	position: relative;
+}
 
+aside .bid .bid-tabs input{
+	display: none;
+}
+
+aside .bid .bid-tabs label{
+	margin: 20px 30px;
+	color: #fd5520;
+	cursor: pointer;
+	border-bottom: 1px dotted #fe9979;
+}
+
+aside .bid .bid-tabs .tab-content{
+	margin: 3% 0 12%; 
+}
+
+aside .bid .bid-tabs .tab-content #tab-1,
+aside .bid .bid-tabs .tab-content #tab-2{
+	position: absolute;
+	display: none;
+}
+
+aside .bid .bid-tabs #tab1:checked ~ .tab-content #tab-1,
+aside .bid .bid-tabs #tab2:checked ~ .tab-content #tab-2{
+	display: block;
+}
+
+aside .bid .bid-tabs #tab1:checked ~ label[for="tab1"],
+aside .bid .bid-tabs #tab2:checked ~ label[for="tab2"]{
+	padding: 20px 30px;
+	margin: 0;
+	background-color: #ffe6de;
+	border-radius: 5px;
+	border: none;
+}
+
+.bid .bid-tabs .tab-content #tab-2 table{
+	width: 100%
+}
+
+.bid .bid-tabs .tab-content #tab-2 table thead{
+    border-bottom: 1px solid #cccccc;
+}
+
+.bid .bid-tabs .tab-content #tab-2 th{
+	color: #8f8f8f;
+}
+
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(1),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(2),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(3),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(4),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(5),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(6),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(7),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(8),
+.bid .bid-tabs .tab-content #tab-2 td{
+	padding: 1% 1% ;
+}
+
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(1),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(2),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(3),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(4),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(8){
+	width: 12.5%;
+}
+
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(5),
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(7){
+	width: 10%;
+}
+
+.bid .bid-tabs .tab-content #tab-2 th:nth-child(6){
+	width: 17.5;
+}
 
 
 
