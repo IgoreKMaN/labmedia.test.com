@@ -40,42 +40,42 @@ aside{
 	padding-top: 3%;
 }
 
-aside .about_pulpit .breadcrumbs ul{
+aside .breadcrumbs ul{
 	list-style: none;
 }
 
-aside .about_pulpit .breadcrumbs ul li{
+aside .breadcrumbs ul li{
 	display: inline-block;
 }
 
-aside .about_pulpit .breadcrumbs ul li a{
+aside .breadcrumbs ul li a{
 	color: #999999;
 	border-bottom: 1px solid #e0e0e0;
 	padding-bottom: 2%;
 
 }
 
-aside .about_pulpit .info-puplit{
+aside .info-puplit{
 	margin-top: 8%;	
 }
 
-aside .about_pulpit .info-puplit h2{
+aside .info-puplit h2{
 	font-size: 3.2em;
 	color: #000;
 }
 
-aside .about_pulpit .info-puplit > p{
+aside .info-puplit > p{
 	margin-top: 5%;
-	font-size: 1.5em;
+	font-size: 20px;
 }
-aside .about_pulpit .slide-puplit {
+aside .slide-puplit {
 	height: 300px;
 	margin: 100px auto 0;
 	position: relative;
 	width: 100%;
 }
 
-aside .about_pulpit .slider {
+aside .slider {
 	height: inherit;
 	overflow: hidden;
 	position: relative;
@@ -86,7 +86,7 @@ aside .about_pulpit .slider {
 	box-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
-aside .about_pulpit .slides {
+aside .slides {
 	height: inherit;
 	opacity: 0;
 	position: absolute;
@@ -102,11 +102,11 @@ aside .about_pulpit .slides {
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-aside .about_pulpit .slide1 { background-image: url(../img/slide2.png); }
-aside .about_pulpit .slide2 { background-image: url(../img/slide2.png); }
+aside .slide1 { background-image: url(../img/slide2.png); }
+aside .slide2 { background-image: url(../img/slide2.png); }
 
-aside .about_pulpit #slide1:checked ~ .slider > .slide1,
-aside .about_pulpit #slide2:checked ~ .slider > .slide2{
+aside #slide1:checked ~ .slider > .slide1,
+aside #slide2:checked ~ .slider > .slide2{
 	opacity: 1;
 	z-index: 1;
 	-webkit-transform: scale(1);
@@ -115,18 +115,18 @@ aside .about_pulpit #slide2:checked ~ .slider > .slide2{
 	transform: scale(1);
 }
 
-aside .about_pulpit .slide-puplit > input {
+aside .slide-puplit > input {
 	display: none;
 }
 
-aside .about_pulpit .slide-puplit .controls {
+aside .slide-puplit .controls {
 	left: 50%;
 	z-index: 2;
 	bottom: 5%;
 	position: absolute;
 }
 
-aside .about_pulpit .slide-puplit label {
+aside .slide-puplit label {
 	cursor: pointer;
 	display: inline-block;
 	height: 8px;
@@ -143,13 +143,13 @@ aside .about_pulpit .slide-puplit label {
 	transition: background ease-in-out .5s;
 }
 
-aside .about_pulpit .slide-puplit label:hover, 
-aside .about_pulpit #slide1:checked ~ .controls label:nth-of-type(1),
-aside .about_pulpit #slide2:checked ~ .controls label:nth-of-type(2){
+aside .slide-puplit label:hover, 
+aside #slide1:checked ~ .controls label:nth-of-type(1),
+aside #slide2:checked ~ .controls label:nth-of-type(2){
 	background: #ddd;
 }
 
-aside .about_pulpit .slide-puplit label:after {
+aside .slide-puplit label:after {
 	border: 2px solid #ddd;
 	content: " ";
 	display: block;
@@ -164,7 +164,7 @@ aside .about_pulpit .slide-puplit label:after {
 	border-radius: 50%;
 }
 
-aside .about_pulpit .slide-puplit .arrow{
+aside .slide-puplit .arrow{
 	position: absolute;
 	top: 50%;
 	z-index: 2;
@@ -172,54 +172,54 @@ aside .about_pulpit .slide-puplit .arrow{
 	text-align: center;
 }
 
-aside .about_pulpit .slide-puplit .arrow label{
+aside .slide-puplit .arrow label{
 	border: 1px solid #fff;
 	margin: 0;
 	width: 30px;
 	height: 30px;
 }
 
-aside .about_pulpit .slide-puplit .arrow label:hover{
+aside .slide-puplit .arrow label:hover{
 	background: transparent;
 }
 
-aside .about_pulpit .slide-puplit .arrow label:after{
+aside .slide-puplit .arrow label:after{
 	display: none;
 }
 
-aside .about_pulpit .slide-puplit .arrow .fa{
+aside .slide-puplit .arrow .fa{
 	color: #fff;
 	font-size: 1.7em;
 	
 }
 
-aside .about_pulpit .slide-puplit .arrow #arrow-left{
+aside .slide-puplit .arrow #arrow-left{
 	position: absolute;
 	left: 3%;
 }
 
-aside .about_pulpit .slide-puplit .arrow #arrow-left .fa{
+aside .slide-puplit .arrow #arrow-left .fa{
 	position: absolute;
 	left: 25%;
 }
 
-aside .about_pulpit .slide-puplit .arrow #arrow-right{
+aside .slide-puplit .arrow #arrow-right{
 	position: absolute;
 	right: 3%;
 }
 
-aside .about_pulpit .slide-puplit .arrow #arrow-right .fa{
+aside .slide-puplit .arrow #arrow-right .fa{
 	position: absolute;
 	left: 40%;
 }
 
-aside .about_pulpit .slide-puplit .slides p{
+aside .slide-puplit .slides p{
 	font-size: 1.1em;
 	color: #fff;
 	padding: 5% 12% 0; 
 }
 
-aside .about_pulpit .slide-puplit .slides p.bold-and-underline{
+aside .slide-puplit .slides p.bold-and-underline{
 	font-size: 1.5em;
 	font-weight: bold;
 	text-decoration: underline;
@@ -434,12 +434,11 @@ aside .bid .bid-tabs label{
 }
 
 aside .bid .bid-tabs .tab-content{
-	margin: 3% 0 12%; 
+	margin: 3% 0 7%; 
 }
 
 aside .bid .bid-tabs .tab-content #tab-1,
 aside .bid .bid-tabs .tab-content #tab-2{
-	position: absolute;
 	display: none;
 }
 
@@ -456,6 +455,7 @@ aside .bid .bid-tabs #tab2:checked ~ label[for="tab2"]{
 	border-radius: 5px;
 	border: none;
 }
+
 
 .bid .bid-tabs .tab-content #tab-2 table{
 	width: 100%
@@ -498,11 +498,47 @@ aside .bid .bid-tabs #tab2:checked ~ label[for="tab2"]{
 	width: 17.5;
 }
 
+.bid .bid-tabs .tab-content #tab-2 .pagination{
+	margin: 2% 0;
+	width: 300px;
+}
 
+.bid .bid-tabs .tab-content #tab-2 .pagination span{
+	padding-right: 2%;
+	color: #fd5520;
+}
 
+.bid .bid-tabs .tab-content #tab-2 .pagination span.active,
+.bid .bid-tabs .tab-content #tab-2 .pagination span.points{
+	color: #000;
+}
 
+footer{
+	border-top: 2px solid #f2f2f2;
 
+}
 
+footer .footer-menu{
+	margin-top: 5%;
+}
+
+footer .f-menu li{
+	margin: 0 0 4% 0;
+}
+
+footer .f-menu a{
+	border-bottom: 1px solid #c2c2c2;
+
+}
+
+footer .f-menu a,
+footer .footer-menu .copyright{
+	color: #666666;
+}
+
+footer .footer-menu .copyright{
+	margin: 2% 0 1% 0;
+}
 
 
 
