@@ -36,6 +36,10 @@ nav .collapse .profil img{
 	//width: 80%
 }
 
+.navbar-brand img{
+	width: 100%;
+}
+
 aside{
 	padding-top: 3%;
 }
