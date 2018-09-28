@@ -106,8 +106,19 @@ aside .slides {
 	transition: transform ease-in-out .5s, opacity ease-in-out .5s;
 }
 
-aside .slide1 { background-image: url(../img/slide2.png); }
-aside .slide2 { background-image: url(../img/slide2.png); }
+aside .slide1 { 
+	background-repeat: no-repeat;
+    background-image: url(../img/slide2.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+aside .slide2 {
+	background-repeat: no-repeat;
+    background-image: url(../img/slide2.png);
+    background-size: cover;
+    background-position: center center;
+}
 
 aside #slide1:checked ~ .slider > .slide1,
 aside #slide2:checked ~ .slider > .slide2{
