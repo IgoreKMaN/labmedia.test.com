@@ -9,16 +9,15 @@ nav.navbar-default{
 nav .collapse ul.nav,
 nav .collapse span.profil{
 	display: block;
-	margin: 1% 0;
+	margin: 1% auto;
 }
 
 nav .collapse ul{
 	padding: 0 2%;
+	text-align: left;
 }
 
-nav .collapse ul.nav > li{
-	
-}
+
 
 nav .collapse ul.nav > li > a{
 	color: #000;
@@ -33,7 +32,8 @@ nav .collapse span{
 }
 
 nav .collapse .profil img{
-	//width: 80%
+	padding-top: 10%;
+	width: 80%
 }
 
 .navbar-brand img{
@@ -344,7 +344,7 @@ a:hover{
     border-radius: 20px;
     padding: 10px 15px;
     display: inline-block;
-    margin-bottom: 18%;
+    margin-bottom: 10%;
   }
 
 .box-participants .text-ych{
@@ -366,7 +366,7 @@ a:hover{
 	text-align: center;
 	margin-top: 20px;
     padding: 10px;
-    width: 15%;
+    width: 200px;
 }
 
 aside .popular-courses{
@@ -555,5 +555,33 @@ footer .footer-menu .copyright{
 	margin: 2% 0 1% 0;
 }
 
+@media (max-width: 1224px) {
+	.nav li a{
+		font-size: 0.7em;
+	}
+}
 
+@media (max-width: 991px) {
+	.nav li a{
+		font-size: 0.55em;
+	}
+}
 
+@media (max-width: 832px) {
+	.nav li a{
+		font-size: 0.46em;
+	}
+}
+
+@media (max-width: 767px) {
+	.dis-no, .profil{
+		display: none;
+	}
+
+	.navbar-default .navbar-nav > li > a{
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 3% 0;
+	    color: #000;
+	}
+}
